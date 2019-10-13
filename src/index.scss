@@ -1,8 +1,8 @@
 // Override default variables before the import
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import './src/styles/custom.scss';
-@import '~bootstrap/scss/bootstrap';
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import "./src/styles/custom.scss";
+@import "~bootstrap/scss/bootstrap";
 
 head,
 body {
@@ -111,7 +111,7 @@ body {
 }
 
 nav h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 nav a {
@@ -252,6 +252,11 @@ li {
 .hero-home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./images/home_bg_1400.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#content-wrap .jumbotron {
+  margin-bottom: 0;
 }
 
 .welcome {

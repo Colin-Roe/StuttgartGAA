@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Hero from '../common/hero/TrainingHero';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import Hero from "../common/hero/TrainingHero";
 
 class TrainingPage extends Component {
   render() {
-    const loadGoogleMapsApi = require('load-google-maps-api');
+    const loadGoogleMapsApi = require("load-google-maps-api");
 
     function loadGoogleMapsApis() {
       return loadGoogleMapsApi({
-        key: ''
+        key: ""
       });
     }
     function createMap(googleMaps, mapElement) {
@@ -18,8 +18,8 @@ class TrainingPage extends Component {
       });
     }
 
-    document.addEventListener('DOMContentLoaded', function() {
-      let mapElement = document.getElementById('map');
+    document.addEventListener("DOMContentLoaded", function() {
+      let mapElement = document.getElementById("map");
 
       loadGoogleMapsApis().then(function(googleMaps) {
         createMap(googleMaps, mapElement);
@@ -73,18 +73,22 @@ class TrainingPage extends Component {
                   Sportplatz der Universitat Hohenheim : Mondays at 18:00 -
                   19:30
                 </p>
-                <p>Schlossgarten : Sundays at 12:00 - 13:00</p>
+                <p>
+                  Schlossgarten : Sundays at 12:00 - 13:00. Note: Only occurs
+                  when we have sufficient numbers. For more up-to-date
+                  information, please request to join our WhatsApp group.
+                </p>
               </div>
               <div className="mb-3">
-                <h2>What you need</h2>
+                <h2>What You Need</h2>
                 <p>
                   We provide hurleys and helmets for training sessions. You need
                   only bring comfortable clothing, sports shoes and water.
                 </p>
                 <p className="lead">
-                  Note: For up to date training details for each training
-                  session, please check our Facebook events or request to join
-                  our WhatsApp group.
+                  <span className="font-weight-bold">Note:</span> For up to date
+                  training details for each training session, please check our
+                  Facebook events or request to join our WhatsApp group.
                 </p>
               </div>
               <p className="lead">Disclaimer: Training may lead to beer.</p>
