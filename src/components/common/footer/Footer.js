@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-// import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import "../footer/Footer.scss";
+import '../footer/Footer.scss';
 
 class Footer extends Component {
   showCurrentYear() {
@@ -18,21 +18,11 @@ class Footer extends Component {
               reserved.
             </div>
             <div className="col">
-              {/* <div className="float-right">
-                <div className="ml-auto">
-                  <NavLink to="/" exact>
-                    Home
-                  </NavLink>
-                  {"  "}
-                  <NavLink to="/about">About</NavLink>
-                  {"  "}
-                  <NavLink to="/training">Training</NavLink>
-                  {"  "}
-                  <NavLink to="/news">News</NavLink>
-                  {"  "}
-                  <NavLink to="/contact">Contact</NavLink>
-                </div>
-              </div> */}
+              <div className="float-right">
+                <Link to="privacy" className="btn btn-primary">
+                  Privacy Policy
+                </Link>
+              </div>
             </div>
           </div>
         </section>

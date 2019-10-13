@@ -3,6 +3,16 @@ import { Link } from 'react-router-dom';
 import Hero from '../common/hero/ContactHero';
 
 class ContactPage extends Component {
+  constructor() {
+    super();
+    this.state = { isDisabled: false };
+    this.handleChecked = this.handleChecked.bind(this);
+  }
+
+  handleChecked() {
+    this.setState({ isDisabled: !this.state.isDisabled });
+  }
+
   render() {
     return (
       <div>
@@ -58,18 +68,27 @@ class ContactPage extends Component {
                     name="comment"
                   />
                 </div>
-                <div className="form-check">
+                <div className="form-check mt-3 mb-3">
                   <input
                     className="form-check-input"
                     type="checkbox"
                     value=""
                     id="privacyCheck"
+                    onChange={this.handleChecked}
                   />
                   <label className="form-check-label" htmlFor="privacyCheck">
-                    I have read the privacy statement
+                    I have read the{' '}
+                    <Link to="privacy" className="underline">
+                      privacy statement
+                    </Link>
                   </label>
                 </div>
-                <button type="submit" className="btn btn-primary">
+                <button
+                  type="submit"
+                  disabled={!this.state.isDisabled}
+                  className="btn btn-primary"
+                  id="btnSubmit"
+                >
                   Send Message
                 </button>
               </form>

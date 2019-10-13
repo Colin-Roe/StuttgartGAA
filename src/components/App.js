@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import HomePage from './home/HomePage';
 import AboutPage from './about/AboutPage';
 import TrainingPage from './training/TrainingPage';
+import PrivacyPage from './privacy/PrivacyPage';
 // import NewsPage from "./news/NewsPage";
 import ContactPage from './contact/ContactPage';
 import Footer from './common/footer/Footer';
@@ -19,6 +20,7 @@ function App() {
           {/* <Route path="/news" component={NewsPage} /> */}
           <Route path="/contact" component={ContactPage} />
           {/* <Route component={PageNotFound} /> */}
+          <Route path="/privacy" component={PrivacyPage} />
         </Switch>
       </div>
       <Footer />

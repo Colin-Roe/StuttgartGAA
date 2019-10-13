@@ -32,6 +32,10 @@ body {
   height: 100px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .hero {
   background-size: cover;
   background-position: center center;
@@ -153,7 +157,7 @@ nav a {
 /******* ABOUT *********/
 .hero-about {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/PSX_20190611_100301.jpg) no-repeat center;
+    url(./images/about-us_bg_1400.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -192,13 +196,14 @@ li {
   }
   li h3 {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     margin: 0;
     padding: 0;
-    font-size: 1.5vw;
+    font-size: 1rem;
+    width: 7em;
   }
 }
 
@@ -220,7 +225,7 @@ li {
 /******* CONTACT ***********/
 .hero-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/contact-us.jpg) no-repeat center;
+    url(./images/contact-us-1400-1050.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -246,7 +251,7 @@ li {
 /******* HOME *******/
 .hero-home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/jvt-9423-v2.jpg) no-repeat center;
+    url(./images/home_bg_1400.jpg) no-repeat center;
 }
 
 .welcome {
@@ -283,7 +288,7 @@ li {
 /******* TRAINING *******/
 .hero-training {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/training_2.jpg) no-repeat center;
+    url(./images/training_bg_1400.jpg) no-repeat center;
   background-size: cover;
 }
 

@@ -25,26 +25,14 @@ const HomePage = () => (
             <div className="row justify-content-md-center pb-md-5">
               <h1 className="text-uppercase">Tournaments</h1>
             </div>
-            <div className="row ten-columns">
-              <div className="col-sm-20 square d-flex align-items-center justify-content-center tournament">
-                <div>Vienna</div>
-                <div>May 4th 2019</div>
-              </div>
-              <div className="col-sm-20 square d-flex align-items-center justify-content-center tournament">
-                <div>Belgium</div>
-                <div>June 15th 2019</div>
-              </div>
-              <div className="col-sm-20 square d-flex align-items-center justify-content-center tournament">
-                <div>Amsterdam</div>
-                <div>July 13th 2019</div>
-              </div>
-              <div className="col-sm-20 square d-flex align-items-center justify-content-center tournament">
-                <div>Copenhagen</div>
-                <div>September 7th 2019</div>
-              </div>
-              <div className="col-sm-20 square d-flex align-items-center justify-content-center tournament">
+            <div className="row justify-content-center">
+              <div className="col-md-4 col-sm-6 square d-flex align-items-center justify-content-center tournament">
                 <div>Dresden</div>
                 <div>October 5th 2019</div>
+              </div>
+              <div className="col-md-4 col-sm-6 square d-flex align-items-center justify-content-center tournament">
+                <div>Stuttgart</div>
+                <div>October 26th 2019</div>
               </div>
             </div>
           </div>
