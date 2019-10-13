@@ -7240,6 +7240,9 @@ li {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/093a20172b4d4de4425c5fe03b664aef.jpg) no-repeat center;
   background-size: cover; }
 
+#content-wrap .jumbotron {
+  margin-bottom: 0; }
+
 .welcome {
   text-align: center; }
 
@@ -7277,4 +7280,4 @@ li {
 /******* END TRAINING *******/
 
 
-/*# sourceMappingURL=main.c91cb7d2147632bda180.css.map*/
+/*# sourceMappingURL=main.00672ce8fd0ec6d93faa.css.map*/
