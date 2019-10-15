@@ -27,11 +27,9 @@ const HomePage = () => (
             </div>
             <div className="row justify-content-center">
               <div className="col-md-4 col-sm-6 square d-flex align-items-center justify-content-center tournament">
-                <div>Dresden</div>
-                <div>October 5th 2019</div>
-              </div>
-              <div className="col-md-4 col-sm-6 square d-flex align-items-center justify-content-center tournament">
+                <div>Friendly Hurling Tournament</div>
                 <div>Stuttgart</div>
+                <div>Sportplatz der Uni Hohenheim</div>
                 <div>October 26th 2019</div>
               </div>
             </div>

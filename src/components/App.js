@@ -6,6 +6,7 @@ import TrainingPage from './training/TrainingPage';
 import PrivacyPage from './privacy/PrivacyPage';
 // import NewsPage from "./news/NewsPage";
 import ContactPage from './contact/ContactPage';
+import EventPage from './event/EventPage';
 import Footer from './common/footer/Footer';
 // import PageNotFound from "./PageNotFound";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" component={ContactPage} />
           {/* <Route component={PageNotFound} /> */}
           <Route path="/privacy" component={PrivacyPage} />
+          <Route path="/event" component={EventPage} />
         </Switch>
       </div>
       <Footer />

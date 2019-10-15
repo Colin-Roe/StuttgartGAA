@@ -39,9 +39,9 @@ const Header = () => {
             Training
           </NavLink>
           {'  '}
-          {/* <NavLink to="/news" activeStyle={activeStyle}>
-            News
-          </NavLink> */}
+          <NavLink to="/event" activeStyle={activeStyle}>
+            Events
+          </NavLink>
           {'  '}
           <NavLink to="/contact" activeStyle={activeStyle}>
             Contact
