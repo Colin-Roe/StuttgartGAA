@@ -25,11 +25,14 @@ body {
   padding-bottom: 80px; /* Footer height */
 }
 
-#logo-container {
-  margin: 10px 0;
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
 }
 .logo-image {
   height: 100px;
+  margin-right: 1rem;
 }
 
 .underline {

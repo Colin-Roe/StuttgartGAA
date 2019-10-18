@@ -1,7 +1,7 @@
-import React from 'react';
-import Header from '../common/header/Header';
+import React from "react";
+import Header from "../common/header/Header";
 
-import Promo from '../../images/stuttgart_promo_tournament_2019.jpg';
+import Promo from "../../images/stuttgart_promo_tournament_2019.jpg";
 
 const EventPage = () => {
   return (
@@ -9,7 +9,7 @@ const EventPage = () => {
       <Header />
       <section className="container">
         <div className="row mt-5 mb-5">
-          <div className="col-sm col-3">
+          <div className="col-sm">
             <h2>Stuttgart GAA Events</h2>
             <div className="card mt-3 mb-5 card-news">
               <div className="row no-gutters">

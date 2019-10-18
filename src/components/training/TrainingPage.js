@@ -74,8 +74,8 @@ class TrainingPage extends Component {
                   19:30
                 </p>
                 <p>
-                  Schlossgarten : Sundays at 12:00 - 13:00. Note: Only occurs
-                  when we have sufficient numbers. For more up-to-date
+                  Schlossgarten : Sundays at 12:00 - 13:00. <b>Note:</b> Only
+                  occurs when we have sufficient numbers. For more up-to-date
                   information, please request to join our WhatsApp group.
                 </p>
               </div>
@@ -86,9 +86,9 @@ class TrainingPage extends Component {
                   only bring comfortable clothing, sports shoes and water.
                 </p>
                 <p className="lead">
-                  <span className="font-weight-bold">Note:</span> For up to date
-                  training details for each training session, please check our
-                  Facebook events or request to join our WhatsApp group.
+                  <b>Note:</b> For up to date training details for each training
+                  session, please check our Facebook events or request to join
+                  our WhatsApp group.
                 </p>
               </div>
               <p className="lead">Disclaimer: Training may lead to beer.</p>
