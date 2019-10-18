@@ -42,7 +42,7 @@ const EventPage = () => {
                       Address: Reuchlinstraße 27, 70176 Stuttgart
                     </p>
                     <a
-                      href="https://www.facebook.com/StuttgartGAA/"
+                      href="https://www.facebook.com/events/690206241477265/"
                       target="_blank"
                       rel="noopener noreferrer"
                       title="Stuttgart GAA Facebook Page"
