@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Hero from "../common/hero/TrainingHero";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Hero from '../common/hero/TrainingHero';
 
 class TrainingPage extends Component {
   render() {
-    const loadGoogleMapsApi = require("load-google-maps-api");
+    const loadGoogleMapsApi = require('load-google-maps-api');
 
     function loadGoogleMapsApis() {
       return loadGoogleMapsApi({
-        key: ""
+        key: ''
       });
     }
     function createMap(googleMaps, mapElement) {
@@ -18,8 +18,8 @@ class TrainingPage extends Component {
       });
     }
 
-    document.addEventListener("DOMContentLoaded", function() {
-      let mapElement = document.getElementById("map");
+    document.addEventListener('DOMContentLoaded', function() {
+      let mapElement = document.getElementById('map');
 
       loadGoogleMapsApis().then(function(googleMaps) {
         createMap(googleMaps, mapElement);
@@ -70,13 +70,14 @@ class TrainingPage extends Component {
               <div className="mb-3">
                 <h2>When</h2>
                 <p>
-                  Sportplatz der Universitat Hohenheim : Mondays at 18:00 -
-                  19:30
+                  Sportplatz der Universitat Hohenheim : Mondays at 15:45 -
+                  17:15
                 </p>
                 <p>
                   Schlossgarten : Sundays at 12:00 - 13:00. <b>Note:</b> Only
                   occurs when we have sufficient numbers. For more up-to-date
-                  information, please request to join our WhatsApp group.
+                  information on this training, please request to join our
+                  WhatsApp group.
                 </p>
               </div>
               <div className="mb-3">
