@@ -35,6 +35,10 @@ body {
   margin-right: 1rem;
 }
 
+.activeLink {
+  border-bottom: 3px solid #fff;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -280,6 +284,9 @@ li {
 
 .tournament {
   flex-direction: column;
+  .btn {
+    color: #fff;
+  }
 }
 
 .square {
@@ -288,6 +295,12 @@ li {
   margin: 3px;
   border-radius: 5px;
   background-color: #000;
+  color: #fff;
+}
+
+#arrow {
+  position: absolute;
+  bottom: 1rem;
   color: #fff;
 }
 

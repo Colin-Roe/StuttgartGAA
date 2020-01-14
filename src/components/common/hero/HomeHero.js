@@ -18,10 +18,13 @@ const Hero = () => {
         </a>
         <div className="hero-inner">
           <h2>We Are a Hurling and Camogie Club</h2>
-          <h3>Be part of a growing sport</h3>
+          <h3>Be Part of a Growing Sport</h3>
           <Link to="training" className="btn">
             Join Now
           </Link>
+        </div>
+        <div id="arrow">
+          <i className="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
         </div>
       </div>
     </div>

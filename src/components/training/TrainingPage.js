@@ -70,8 +70,8 @@ class TrainingPage extends Component {
               <div className="mb-3">
                 <h2>When</h2>
                 <p>
-                  Sportplatz der Universitat Hohenheim : Mondays at 18:00 -
-                  19:30
+                  Sportplatz der Universitat Hohenheim : Mondays at 15:30 -
+                  17:30
                 </p>
                 <p>
                   Schlossgarten : Sundays at 12:00 - 13:00. <b>Note:</b> Only

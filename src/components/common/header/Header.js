@@ -4,7 +4,6 @@ import { NavLink, Link } from "react-router-dom";
 import Logo from "../../../images/stuttgart_logo-512x512.png";
 
 const Header = () => {
-  const activeStyle = { color: "#fff" };
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <Link to="/" className="navbar-brand">
@@ -29,23 +28,23 @@ const Header = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <div className="navbar-nav ml-auto">
-          <NavLink to="/" activeStyle={activeStyle} exact>
+          <NavLink to="/" activeClassName="activeLink" exact>
             Home
           </NavLink>
           {"  "}
-          <NavLink to="/about" activeStyle={activeStyle}>
+          <NavLink to="/about" activeClassName="activeLink">
             About
           </NavLink>
           {"  "}
-          <NavLink to="/training" activeStyle={activeStyle}>
+          <NavLink to="/training" activeClassName="activeLink">
             Training
           </NavLink>
           {"  "}
-          <NavLink to="/event" activeStyle={activeStyle}>
+          <NavLink to="/event" activeClassName="activeLink">
             Events
           </NavLink>
           {"  "}
-          <NavLink to="/contact" activeStyle={activeStyle}>
+          <NavLink to="/contact" activeClassName="activeLink">
             Contact
           </NavLink>
         </div>
